@@ -301,7 +301,7 @@
 				[
 					{
 						_class = "RenderMeshFile"
-						filename = "models/Placas Edificio/2020_Placa_Numero_Edificio_Fime.smd"
+						filename = "models/placas_edificio/2020_placa_numero_edificio_fime.smd"
 						import_scale = 39.370098
 						import_filter = 
 						{
