@@ -29,6 +29,14 @@
 								from = "fierro_dorado.vmat"
 								to = "materials/models/fierro.vmat"
 							},
+							{
+								from = "azulejo.vmat"
+								to = "materials/models/azulejo.vmat"
+							},
+							{
+								from = "luz_fuente_materiales.vmat"
+								to = "materials/models/luz_fuente_materiales.vmat"
+							},
 						]
 						use_global_default = false
 						global_default_material = ""
