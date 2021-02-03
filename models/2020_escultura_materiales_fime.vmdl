@@ -22,10 +22,6 @@
 								to = "materials/models/fime_pared_gris.vmat"
 							},
 							{
-								from = "material__25.vmat"
-								to = "materials/models/material__25.vmat"
-							},
-							{
 								from = "fierro_dorado.vmat"
 								to = "materials/models/fierro.vmat"
 							},
@@ -36,6 +32,10 @@
 							{
 								from = "luz_fuente_materiales.vmat"
 								to = "materials/models/luz_fuente_materiales.vmat"
+							},
+							{
+								from = "material_25.vmat"
+								to = "materials/models/material__25.vmat"
 							},
 						]
 						use_global_default = false
@@ -49,8 +49,8 @@
 				[
 					{
 						_class = "RenderMeshFile"
-						filename = "models/2020_Escultura_Materiales_Fime.smd"
-						import_scale = 39.370098
+						filename = "models/test2/fuente/ref.smd"
+						import_scale = 1.0
 						import_filter = 
 						{
 							exclude_by_default = false
@@ -66,13 +66,13 @@
 					{
 						_class = "PhysicsMeshFile"
 						name = "2020_Escultura_Materiales_Fime_ch"
-						parent_bone = ""
+						parent_bone = "root"
 						surface_prop = "prop.concrete"
 						collision_prop = "default"
 						recenter_on_parent_bone = false
 						offset_origin = [ 0.0, 0.0, 0.0 ]
 						offset_angles = [ 0.0, 0.0, 0.0 ]
-						filename = "models/2020_Escultura_Materiales_Fime_ch.smd"
+						filename = "models/test2/fuente/coll.smd"
 						import_scale = 39.370098
 						maxMeshVertices = 0
 						qemError = 0.0
