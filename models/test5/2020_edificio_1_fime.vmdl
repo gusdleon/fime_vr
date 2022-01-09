@@ -1,0 +1,124 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = ""
+								to = "materials/architecture/tiles/floor_marble02a_2dirt.vmat"
+							},
+							{
+								from = "cristal_blurred.vmat"
+								to = "materials/glass/glass_pane_001.vmat"
+							},
+							{
+								from = "ed_1_cristal.vmat"
+								to = "materials/combine/combine_vault_glass_a.vmat"
+							},
+							{
+								from = "ed_1_cristal_entrance.vmat"
+								to = "materials/combine/combine_vault_glass_a.vmat"
+							},
+							{
+								from = "fime_green.vmat"
+								to = "materials/models/fime_green.vmat"
+							},
+							{
+								from = "fime_pared.vmat"
+								to = "materials/architecture/tiles/concrete_wall_01a.vmat"
+							},
+							{
+								from = "grey_contact.vmat"
+								to = "materials/models/grey_contact.vmat"
+							},
+							{
+								from = "gris.vmat"
+								to = "materials/models/grey_contact.vmat"
+							},
+							{
+								from = "marble.vmat"
+								to = "materials/models/marble.vmat"
+							},
+							{
+								from = "metales_barandal.vmat"
+								to = "materials/combine/combine_metal_tile_a.vmat"
+							},
+							{
+								from = "phone_box_2.vmat"
+								to = "materials/dev/primary_blue.vmat"
+							},
+							{
+								from = "phone_box_blue.vmat"
+								to = "materials/dev/primary_blue.vmat"
+							},
+							{
+								from = "piedra_gris.vmat"
+								to = "internationalstage/models/key_arena_360_atnt_fbx/tpn_darkconcrete.vmat"
+							},
+							{
+								from = "panel.vmat"
+								to = "materials/models/panel.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsMeshFile"
+						name = "2020_Edificio_1_Fime"
+						parent_bone = ""
+						surface_prop = "prop.concrete"
+						collision_prop = "default"
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/test5/2020_Edificio_1_Fime.fbx"
+						import_scale = 1.0
+						maxMeshVertices = 0
+						qemError = 0.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models/test5/2020_Edificio_1_Fime.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = "static_prop_model"
+		primary_associated_entity = "prop_static"
+		anim_graph_name = ""
+	}
+}
